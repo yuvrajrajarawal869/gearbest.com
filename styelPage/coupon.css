@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: OpenSans,Arial,Helvetica,sans-serif;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+a{
+    color: #666;
+    text-decoration: none;
+    outline: none;
+
+}
+
+/* this page divide in 3 part's 1> banner 2> coupon 3> item's cuoponCode */
+/* 1> banner */
+.couponIndex_banner{
+
+    /* background-color: #fb9b69; */
+    background-image: url("coupona.jpg") ;
+    background-repeat: no-repeat;
+    background-position: top;
+    border: 1px solid red;
+    width: 100vw;
+    height: 240px;
+}
+
+/* 2> coupon  */
+.couponIndex_coupon{
+    width: 80%;
+    margin: -110px auto 0;
+}
+
+.couponIndex_couponRow{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    flex: 1;
+    margin: auto;
+}
+
+.couponIndex_couponCell{
+  height: 309px;
+  width: 383px;
+  margin-right: 1.2rem;
+}
+
+.couponIndex_couponHead{
+    height: 3.7rem;
+    /* height: 55px; */
+    background:  url("download.png")  no-repeat top;
+    background-size: cover;
+    position: relative;
+    color: black;
+}
+
+.couponIndex_couponHead > h4{
+    padding: 0.7rem 0 0 0.7rem  ;
+    font-weight: 700;
+}
+.couponIndex_couponHead > p{
+    padding: 0 0 0 0.7rem ;
+    font-size: small;
+    font-weight: 300;
+
+}
+.couponIndex_couponBody{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.couponIndex_couponArea {
+    /* border: 5px solid black; */
+    height: 235px;
+    width: 373px;
+    background-color: #fff;
+    width: 100%;
+}
+
+.couponIndex_couponLink{
+margin: 0;
+padding: 0;
+border: 0;
+cursor: pointer;
+}
+.couponIndex_couponArea{
+    padding: 0.7rem;
+    border: 3px solid red;
+    height: 160px;
+    white-space: nowrap;
+}
+
+.couponIndex_couponBlow{  
+    border: 3px solid red;
+    text-align: center;
+}
+.couponIndex_couponBtn{
+    background-color: #ffda00;
+    font-weight: 600;
+    font-size: small;
+    border-radius: 4px;
+    text-align: center;
+    padding: 0 2.7rem;
+    line-height: 2.5rem;
+    border: none;
+}
+
