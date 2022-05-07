@@ -1,0 +1,10 @@
+#nav{
+    width: 13%;
+    height: auto;
+    /* border: 1px solid black; */
+    margin-left: 200px;
+    margin-top: 30px;
+}
+#nav>a>img{
+    width: 100%;
+}
