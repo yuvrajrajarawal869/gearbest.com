@@ -1,0 +1,27 @@
+
+
+/* footer css code */
+.js-lazyload-lazy-loaded{
+    margin-left: 30px;
+}
+.pc_bottom{
+height: 130px;
+width: 100%;
+margin: auto;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+background-color: #fff;
+padding-top: 60px;
+margin-top: 50px;
+}
+
+.pc_wrap{
+height: 100px;
+width: 80%;
+margin: auto;
+text-align: center;
+}
+
+.pc_wrap p{
+color: #999;
+font-size: 14px;
+}

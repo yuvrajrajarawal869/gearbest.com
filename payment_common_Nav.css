@@ -1,0 +1,21 @@
+/* navbar code */
+body{
+    background-color: rgb(247, 243, 243);
+}
+
+#navbar{
+    width: 97%;
+    height: 70px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #fff;
+    padding: 20px;
+    margin: 0px;
+    margin-bottom: 50px;
+}
+#navbar img{
+ width: 220px;
+ height: 55%;
+ margin-bottom: 0px;
+ margin-top: 20px;
+ margin-left: 60px;
+}

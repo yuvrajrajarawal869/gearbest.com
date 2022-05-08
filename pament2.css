@@ -1,0 +1,165 @@
+
+#payment-container{
+    width: 78%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 70px;
+}
+
+.pement_option_img{
+    width: 80px;
+    height: 40px;
+    margin-left: -3px;
+    margin-right: -3px;
+    border: 0.001px solid rgb(235, 231, 231);
+}
+
+  
+#pament-box{
+    width: 600px;
+    height: auto;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 25px;
+   
+}
+
+#id01{
+    display: none;
+}
+
+.paymentform{
+    opacity: 1;
+   border: 1px solid gray;
+   padding: 25px;
+   z-index: 1;
+   visibility: visible;
+   height: auto;
+   width: 90%;
+   
+}
+
+.paymentform>input{
+    width: 80%;
+    height: 35px;
+    margin-bottom: 20px;
+} 
+
+ .secect-date{
+    width: 81.5%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+} 
+
+ #month{
+    height: 35px;
+    width: 48%;
+}
+#year{
+    height: 35px;
+    width: 48%;
+} 
+
+ #idit-bill-adress{
+   display: flex;
+   justify-content: space-between;
+   width: 80%;
+   height: 30px;
+   margin-top: 0px;
+} 
+ #idit-bill-adress h4+a{
+    color: rgb(20, 20, 160);
+    cursor: pointer;
+    text-decoration: none;
+} 
+ #idit-bill-adress h4{
+    margin-top: 0px;
+    margin-bottom: 0px;
+} 
+ .addresFromCahrt h5{
+    margin-bottom: 0px;
+    margin-top: 0px;
+} 
+
+ .addresFromCahrt h5+p{
+   margin-top: 3px;
+   color: gray;
+}
+
+/* seconnd start from here of our-order */
+#Our-Order{
+    width: 300px;
+    height: 390px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #fff;
+}
+.add{
+   margin-bottom: 0px;
+   margin-top: 5px;
+}
+.add+h4{
+    margin-top: 5px;
+}
+
+.grand-total{
+    display: flex;
+    justify-content: space-between;
+}
+.payable-amount{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-pay-Now{
+   border: none;
+   background-color: #ffda00;
+   padding: 10px 104px 10px 104px;
+   cursor: pointer;
+   font-size: 20px;
+   font-weight: 600;
+   margin-left: 25px;
+}
+.payNow{
+    text-decoration: none;
+}
+.margin{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.expl{
+    color: gray;
+}
+
+
+ .pement_option{
+    display: flex;
+    text-align: center;
+    width: 400px;
+    gap: 20px;
+} 
+ .title_of_pement{
+    margin-left: 50px;
+}
+
+.ratio_input{
+    margin-top: 15px;
+} 
+
+.pay_total_amount_grand{
+    font-size: 20px;
+    color: red;
+    font-weight: 800;
+}
+
+
+.pay_total_amount{
+      
+    font-size: 20px;
+    color: red;
+    font-weight: 800;
+
+}
