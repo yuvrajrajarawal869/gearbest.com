@@ -1,0 +1,187 @@
+
+
+.shiping-Information{
+    margin-left: 5%;
+   
+}
+#Address-infornation-container{
+    width: 87%;
+    height: 180px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #fff;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 50px;
+    
+}
+
+#Address-button{
+       padding-top: 30px;
+       padding-bottom: 30px;
+}
+
+#Address-button .select{
+margin-bottom: 30px;
+width: 100%;
+padding: 12px 50px 12px 50px;
+font-size: 18px;
+font-weight:700;
+background-color: #ffda00;
+border: none;
+}
+
+#Address-button .add{
+    margin-bottom: 30px;
+    width: 100%;
+    padding: 12px 50px 12px 50px;
+    font-size: 18px;
+    font-weight:700;
+    background-color: #fff;
+    border: 0.7px solid black;
+    }
+    
+
+.chageRadio{
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+}
+    #place-Order{
+        width: 87%;
+        height: 250px;
+        background-color:  #fffffff8;
+        box-shadow: rgba(0, 0, 0, 0.0) 0px 5px 15px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-bottom: 30px;
+        margin-top: 50px;
+        border: 0.5px solid rgb(196, 192, 192);
+    }
+     
+    .radio_tag{
+        display: flex;
+        margin-top: 20px;
+    }
+    .p_tag{
+
+        margin-left: 35px;
+        color: gray;
+        margin-bottom: -15px;
+    }
+    
+    .apply{
+        width: 400px;
+        height: 35px;
+        margin-left: 0px;
+        margin-left: 30px;
+    }
+     .submit{
+         height: 42px;
+         padding-top: 0px;
+         padding-left: 20px;
+         padding-right: 20px;
+         background-color: #ffda00;
+         border: none;
+         cursor: pointer;
+     }
+.price{
+    padding: 10px;
+    width: 300px;
+    height: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    margin-top: -10px;
+}
+
+.shipping-charge{
+        padding: 10px;
+        width: 300px;
+        height: 15px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 15px;
+        margin-top: -10px;
+}
+
+#grand-total{
+   padding-top: 20px;
+}
+.Earn_point{
+    text-align: right;
+}
+
+.btn-place-order{
+    background-color: #ffda00;
+    border: none;
+    padding: 10px 120px 10px 120px;
+    cursor: pointer;
+}
+
+.ankertagOfBtn{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    margin-top: 30px;
+}
+
+.total{
+    padding: 10px;
+width: 300px;
+height: 15px;
+display: flex;
+justify-content: space-between;
+margin-bottom: 30px;
+margin-top: -10px;
+
+}
+
+
+#under_line{
+    text-decoration: none;
+}
+
+.totalPrice{
+     color: red;
+     font-size: 20px;
+     font-weight: 800;
+
+}
+
+.shi{
+    color: red;
+    font-size: 20px;
+    font-weight: 800;
+
+}
+
+.paytotal{
+    color: red;
+    font-size: 20px;
+    font-weight: 800;
+
+}
+.QTY{
+    color: black;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.unitP{
+    color: black;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.Subt{
+    color: black;
+    font-size: 20px;
+    font-weight: 800;
+}

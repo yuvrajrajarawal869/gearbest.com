@@ -1,0 +1,63 @@
+
+table {
+  border-collapse:collapse;
+  width: 90%;
+  margin: auto;
+}
+
+th,
+td {
+  padding: 15px;
+}
+
+.unitP{
+    width: 183px;
+}
+
+.QTY{
+    width: 166px;
+}
+
+tr > th {
+  background-color: #fff;
+  color: black;
+}
+
+.subtotal{
+    text-align: left;
+    
+}
+    
+#body{
+    background-color: #fff;
+}
+
+
+
+
+#img_siz{
+    width: 150px;
+    height: 150px;
+}
+
+
+
+table,
+td,
+th {
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.select_Itom_left{
+    width: 50%;
+}
+
+
+.ptag{
+    display: flex;
+    gap: 20px;
+}
+.merge{
+    margin-bottom: 5px;
+}
