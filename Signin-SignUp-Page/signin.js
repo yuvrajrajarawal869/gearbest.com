@@ -16,7 +16,7 @@ function signinfunction(){
        if(email1 == ele.email && password1==ele.cpassword)
        {
         alert("Sign in successfully");
-        localStorage.setItem("signindata", JSON.stringify(email1))
+        localStorage.setItem("show_email", JSON.stringify(email1))     
          document.querySelector("#email").value="";
          document.querySelector("#password").value="";
        }
