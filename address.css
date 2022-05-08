@@ -1,0 +1,260 @@
+.gear{
+    width:230px;
+    height:50px;
+    
+}
+.topleft{
+    margin-top: 30px;
+    margin-left: 80px;
+
+}
+.parent{
+    width:90%;
+    /* border:1px solid red; */
+    margin:auto;
+}
+.adddata{
+    /* border:1px solid black; */
+    width:55%;
+    text-align: end;
+}
+div input{
+    width:400px;
+    height:33px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+#country{
+    width:400px;
+    height:33px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+#state{
+    width:400px;
+    height:33px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+#check{
+    /* width:20px; */
+    margin-left: 315px;
+}
+.but{
+    /* border:1px solid rebeccapurple; */
+    display:flex;
+    width:230px;
+    justify-content: space-between;
+    margin-left: 315px;
+    margin-top: 30px;
+}
+div button{
+    padding:10px;
+    width:100px;
+    
+}
+.cancel{
+    background-color: white;
+    /* border:1px solid black; */
+    font-weight: bold;
+}
+.confirm{
+    background-color: yellow;
+    border:none;
+    font-weight: bold;
+}
+.note{
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+
+
+/* /////////////////////////////////////////////footer//////////////////////////////////////// */
+
+#populer-serch-box{
+    display: table;
+    margin: auto;
+    width: 99%;
+    height: 100px;
+    cursor: default;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: #fff;
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+#footer{
+     display: table-cell;
+     vertical-align: baseline;
+     width: 80%;
+     height: 90px;
+     line-height: 5px;
+     padding-right: 50px;
+     padding-top: 50px;    
+}  
+.footerkeys{
+    display: inline-block;
+    vertical-align: baseline;
+    margin-left: 20px;
+}
+.populer-serch{
+    margin-left: 110px;
+}
+.footerkeysOfanker{
+    text-decoration: none;
+    color: black;
+}
+#service-box{
+    width: 85%;
+    height: 130px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+ #companylogo{
+     text-align: center;
+     padding-top: 5px;
+ }
+ #companylogo>div img{
+    margin-bottom: 3px;
+    margin-top: 20px;
+}
+#companylogo>div img,h5{
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+ #servicelogo{
+     display: flex;
+ }
+#servicelogo>div{
+  width: 200px;
+  height: 200px;  
+  text-align: center;
+  
+}
+#servicelogo>div img{
+    width: 60px;
+    height: 60px;
+    margin-bottom: 0px;
+}
+
+#servicelogo>div img,h4{
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+#servicelogo>div img,h4,p{
+    margin-top: 0px;
+}
+#sosial-media-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 50px;
+    width: 88%;
+    height: 60px;
+    margin-bottom: 30px;
+}
+.footerSoical{
+    float: right;
+    text-align: right;
+}
+.footerSoical_item{
+    margin-left: 15px;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    background-color:#464646 ;
+    color: #fff;
+    text-align: center;
+    border-radius:50%;
+}
+.icon{
+    width: 40px;
+    height: 40px;
+}
+.input-serch{
+    align-items: center;
+    height: 45px;
+}
+.input-serch>label{
+    font-size: 20px;
+}
+.input-serch>input{
+    height: 39px;
+    width: 300px;
+    font-size: 20px;
+}
+.input-serch>input+button{
+    color: #fff;
+    background-color: black;
+    padding: 17px 20px 14px 20px;
+    border: 0px;
+    margin-top: 0px;
+}
+#information{
+    width: 93%;
+    display: flex;
+    margin: auto;
+    justify-content:space-around;
+}
+#information>div{
+    width: 250px;
+}
+.information-anker-tag{
+    text-decoration: none;
+    line-height: 20px;
+    font-size: 15px;
+    color: rgb(19, 18, 18);
+}
+.store-img-barcod{
+    width: 100px;
+    height: 105px;
+    margin-bottom: 0px;
+}
+.store-img{
+    width: 145px;
+    height: 45px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.Download-App{
+    display: flex;
+}
+.appDownload_area{
+    margin-top: 3px;
+}
+.footWebauth-footerCenter{
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.js-lazyload-lazy-loaded{
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+.js-lazyload-lazy-loaded-fist{
+   height: 30px;
+   width: 80px;
+   margin-left: 30px;
+   margin-bottom: 20px;
+   margin-top: 0px;
+}
+#bottomNav{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    margin: auto;
+    background-color: black;
+}
+#bottomNav>h5{
+    color: wheat;
+    padding-top: 13px;
+}
