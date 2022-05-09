@@ -4,13 +4,18 @@
     font-family: OpenSans,Arial,Helvetica,sans-serif;
     box-sizing: border-box;
     font-size: 14px;
+   
 }
 
-a{
+/* a{
     color: #666;
     text-decoration: none;
     outline: none;
 
+} */
+
+.indexCoupon{
+    background-color: #f2f2f2;
 }
 
 /* this page divide in 3 part's 1> banner 2> coupon 3> item's cuoponCode */
@@ -21,8 +26,8 @@ a{
     background-image: url("coupona.jpg") ;
     background-repeat: no-repeat;
     background-position: top;
-    border: 1px solid red;
-    width: 100vw;
+    /* border: 1px solid red; */
+    width: 100%;
     height: 240px;
 }
 
@@ -42,27 +47,33 @@ a{
 }
 
 .couponIndex_couponCell{
-  height: 309px;
-  width: 383px;
+    /* border: 1px solid red; */
+  height: 300px;
+  width: 380px;
   margin-right: 1.2rem;
 }
 
 .couponIndex_couponHead{
-    height: 3.7rem;
-    /* height: 55px; */
+   
+    /* border: 1px solid red; */
+    height: 53px;
     background:  url("download.png")  no-repeat top;
-    background-size: cover;
+    background-size: contain;
     position: relative;
+    padding: 10px 0 0 10px;
     color: black;
+    overflow: hidden;
 }
 
 .couponIndex_couponHead > h4{
-    padding: 0.7rem 0 0 0.7rem  ;
+    /* padding: 0.7rem 0 0 0.7rem  ; */
     font-weight: 700;
+    font-size: 130%;
 }
 .couponIndex_couponHead > p{
-    padding: 0 0 0 0.7rem ;
-    font-size: small;
+    /* padding: 0 0 0 0.7rem ; */
+ 
+    font-size: 100%;
     font-weight: 300;
 
 }
@@ -73,10 +84,11 @@ a{
 }
 .couponIndex_couponArea {
     /* border: 5px solid black; */
-    height: 235px;
-    width: 373px;
+    height: 176px;
+    padding: 0.7rem;
     background-color: #fff;
     width: 100%;
+    white-space: nowrap;
 }
 
 .couponIndex_couponLink{
@@ -85,17 +97,30 @@ padding: 0;
 border: 0;
 cursor: pointer;
 }
-.couponIndex_couponArea{
-    padding: 0.7rem;
-    border: 3px solid red;
-    height: 160px;
-    white-space: nowrap;
-}
+
 
 .couponIndex_couponBlow{  
-    border: 3px solid red;
+    /* border: 3px solid red; */
+    background-color: white;
     text-align: center;
+  padding: 0.3rem 0;
+
 }
+
+/* pending work */
+
+/* .couponIndex_couponBlow:after{  
+    border: 3px solid yellowgreen;
+    text-align: center;
+    position: absolute;
+    content: "";
+    width: 310px ;
+    height: 11px;
+    background: url("download1.png") no-repeat bottom;
+
+} */
+
+
 .couponIndex_couponBtn{
     background-color: #ffda00;
     font-weight: 600;
@@ -107,3 +132,159 @@ cursor: pointer;
     border: none;
 }
 
+/* coupon code style  */
+
+.couponIndex_code{
+    margin: 2rem auto;
+    width: 90%;
+
+}
+.couponIndex_code > h3{
+    font-size: 170%;
+    font-weight: 700;
+}
+
+.couponIndex_navComponents{
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-size: 90%;
+
+}
+
+/* small box */
+
+
+.couponIndex_navBoxsName{
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.couponIndex_navBoxsName > div{
+
+    width: 133px;
+    height: 5rem;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.couponIndex_navBoxsName > div > p{
+
+    width: 100%;
+    color: #666;
+    font-size: 95%;
+    padding-bottom: 5px;
+    border-bottom:  3px solid transparent;
+
+
+}
+
+.couponIndex_navBoxsName > div > p:hover{
+
+color: black;
+padding-bottom: 5px;
+border-bottom:  3px solid #ffda00;
+
+}
+
+
+.productDisplay{
+
+    display: grid;
+
+    grid-template-columns: repeat(4,1fr);
+
+    gap: 0.25rem;
+}
+
+.productDisplay > .card{
+
+    /* margin-left: 0.25rem ; */
+    border: 1xp solid red ;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 19vw;
+    background-color: #fff;
+    margin: 0.25rem;
+    border-radius: 3px;
+
+
+    
+
+}
+
+
+.card > img {
+
+    width: 100%;
+
+}
+/* .productDisplay >  */
+
+
+.card > .cardName,  .card > h3,   .card > p, .card .couponDiv, .card > a{
+
+    margin:  0.25rem 0 0.35rem 0.25rem ;
+
+}
+
+
+.cardName{
+
+    font-size: 95%;
+    font-weight: 200;
+    height: 3rem;
+    overflow: hidden;
+
+}
+
+
+.cardDissPrise{
+
+    font-size: 120%;
+    font-weight: 500;
+    margin: 0.5rem 0;
+    color: #f30240;
+}
+
+.orignalPrise{
+
+    font-size: 80%;
+    text-decoration: line-through;
+
+}
+
+
+
+.addToCart{
+
+    margin: 0.5rem;
+    padding: 0.25rem;
+   font-weight: 400;
+
+   background-color: #ffda00;
+   border: 1px solid #ffda00;
+   border-radius: 3px;
+   text-transform: capitalize;
+
+
+}
+
+.addToCart:hover{
+
+  background-color: white;
+  /* color: ; */
+  border: 1px solid #ffda00 ;
+
+
+   
+}

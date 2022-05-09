@@ -1,43 +1,364 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>hi</title>
-
-    <link rel="stylesheet" href="/gearbest/styelPage/coupon.css">
-    <script  type="text/javascript" src="/gearbest/scriptPage/couponData.js"></script>
+   
+    <link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" /> 
+       <link rel="stylesheet" href="/gearbest/styelPage/coupon.css" />
+    <script type="text/javascript" src="/gearbest/scriptPage/couponData.js"></script>
+    <script type="text/javascript" src="/gearbest/scriptPage/couponProductData.js"></script>
+    <!-- <script type="text/javascript" src="/gearbest/scriptPage/couponNavbar.js"></script> -->
+<!-- footer css -->
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="index.css">
 </head>
+
 <body>
-    <h1>Coupon</h1>
-    <div class="hidden js-siteWrap" id="siteWarp">
 
-        <div class="indexCoupon">
 
-            <div class="couponIndex_banner">
+    <div id="parent">
+        <div class="topnav">
+            <div class="a1">
 
+                <div><img class="mobilelogo" src="https://cdn-icons-png.flaticon.com/128/0/191.png" alt="Loading"></div>
+                <button id="mobileselect">Save $3 with App  &nbsp; &or; </button>
+                <!-- <select name="" id="mobileselect">
+                    <option class="sfctitle">Save $3 with App</option>
+                    <option><img src="www.google.com.png" alt=""></option>
+                </select> -->
             </div>
+            <div class="a2">
+                Support Center
+            </div>
+            <div class="a3">
+                <button class="a3">
+                    Ship to &nbsp;<div> <img class="countrylogo" src="https://cdn-icons-png.flaticon.com/128/3013/3013911.png" alt=""></div>
+                <div>
+                   &nbsp;  / USD &nbsp; &or;
+                </button>
+                
+                </div>
+            
+            <div class="a4">
+               <button class="languageselect">Language &nbsp; &or;</button>
+            </div>
+            <div class="a5">
+                <button class="websiteselect">Country Website &nbsp; &or;</button>
+            </div>
+        </div>
+        <div class="botnav">
+            <div class="roundbar">
+               <div><button id="all">All &nbsp; &or;</button></div>
+                    
+                </select>
+                <input type="search" name=""  id="searchbar" placeholder="Search.......">
+              <button class="sbutton"><img class="searchicon" src="searchicon.png" alt=""></button>
+              
+            </div>
+            <div class="sfc">
+                <div class="sign backbox">
+                    <img class="signinlogo" src="https://cdn-icons-png.flaticon.com/128/456/456283.png" alt="">
+                    <div> <a href="www.google.com" class="sfctitle back">&nbsp Sign In </a></div>
+                </div>
+                <div class="sign">
+                    <img class="signinlogo" src="https://cdn-icons.flaticon.com/png/128/2550/premium/2550224.png?token=exp=1651643499~hmac=fe050c35037cf2508f641ec8d2e82d3f" alt="" class="signlogo">
+                    <div>
+                         <a href="www.google.com"class="sfctitle">&nbsp Favourites</a></div>
+                </div>
+                <div class="sign">
+                    <img src="https://cdn-icons-png.flaticon.com/128/711/711897.png" alt="" class="signinlogo">
+                    <div><a href="www.google.com" class="sfctitle">&nbsp Cart</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="topleft">
+           <a href="index.html"> <img class="gear" src="https://uidesign.gbtcdn.com/GB/images/promotion/2019/a_evan/Gearbest/logo_gearbest.png?imbypass=true" alt=""></a>
+         </div>
+
+         <div class="box">
+
+            <div class="left">
+                <div class="category"><a href="">Category</a></div>
+                </div>
+            <div class="right">
+                <div class="rightnav">
+                    <div class="rt"><a href="www.yahoo.com" class="rt">COUPON </a></div>
+                    <div class="rt"><a href="" class="rt">SUPER DEALS </a></div>
+                    <div class="rt"><a href="" class="rt">APP ONLY </a></div>
+                    <div class="rt"><a href="" class="rt">NEW ARRIVALS </a></div>
+            </div>
+        </div>
+
+        </div>  
+
+        
+
+
+
+    <!-- navbar -->
+
+    <!-- <h1>Coupon</h1> -->
+    <div class="hidden js-siteWrap" id="siteWarp">
+        <div class="indexCoupon">
+            <div class="couponIndex_banner"></div>
 
             <div class="couponIndex_coupon">
                 <div class="couponIndex_couponRow">
                     <!-- <div class="couponIndex_couponCell"> this was injected by css</div> -->
                 </div>
             </div>
-            <div class="couponIndex_code"></div>
+            <!-- blow  coupon card code   -->
+            <div class="couponIndex_code">
+                <h3 class="couponIndex_title">COUPON CODE</h3>
 
+                <div class="couponIndex_navWarp">
+                    <div class="couponIndex_navBox">
+                        <div class="couponIndex_navComponents">
+                            <div class="couponIndex_Icon LeftNavBar">
+                                <span class="material-symbols-outlined ">
+                                    arrow_back_ios
+                                </span>
+                            </div>
+                            
+
+                            <div class="couponIndex_navBoxsName"> 
+                                
+                            <div><p>All</p></div>
+                            <div><p>Consumer Electronics</p></div>
+                            <div><p>3D Printer</p></div>
+                            <div><p>Light & Lighting</p></div>
+                            <div><p>Office Supplies</p></div>
+                            <div><p>Appliance</p></div>
+                            <div><p>Health Care</p></div>
+                            <div><p>Home Improvement & Tools</p></div>
+                            <div><p>Home & Garden</p></div>
+                            <div><p>Outdoors & Sports</p></div>
+                            <div><p>Motor & Car</p></div>
+                            <div><p>Cellphone</p></div>
+                           
+                            </div>
+                            
+                            <div class="couponIndex_Icon RightNavBar">
+                                <span class="material-symbols-outlined">
+                                    arrow_forward_ios
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="productDisplay">
+
+
+
+
+
+                </div>
+
+            </div>
         </div>
     </div>
 
- 
+ <!-- footer  -->
 
+
+ <div id="populer-serch-box">
+    <div class="populer-serch"><p>Popular Searches:</p></div>
+         <div id="footer">
+            <p class="footerkeys"><a href="" class="footerkeysOfanker">xiaomi poco m3</a></p>
+            <p class="footerkeys"><a href="" class="footerkeysOfanker">ortur master 2 20w</a></p>
+            <p class="footerkeys"><a href="" class="footerkeysOfanker">telefone inteligente</a></p>
+            <p class="footerkeys"><a href="" class="footerkeysOfanker">screen monitors</a></p>
+            <p class="footerkeys"><a href="" class="footerkeysOfanker">cam mobile</a></p>
+            <p class="footerkeys"><a href="" class="footerkeysOfanker">phone smart</a></p>
+            <p class="footerkeys"><a href="" class="footerkeysOfanker">mobile phone</a></p>
+            <p class="footerkeys"><a href="" class="footerkeysOfanker">phone xiami</a></p>
+            <p class="footerkeys"><a href="" class="footerkeysOfanker">men's casual jackets</a></p>
+            <p class="footerkeys"><a href="" class="footerkeysOfanker">m black</a></p>
+            <p class="footerkeys"><a href="" class="footerkeysOfanker">personal care</a></p>
+            <p class="footerkeys"><a href="" class="footerkeysOfanker">wifi mp4</a></p>
+            <p class="footerkeys"><a href="" class="footerkeysOfanker">xiaomi camera filter</a></p>
+            <p class="footerkeys"><a href="" class="footerkeysOfanker">tt t shirt</a></p>
+         </div> 
+</div>
+<div id="service-box">
+    <div id="companylogo">
+        <div>
+            <img src="https://css.gbtcdn.com/imagecache/gbw/img/site/new-logo.png" alt="greabest">
+            <h5>AFFORDABLE QULITY</h5>
+            <h5>FUN SHOPING</h5>
+        </div>
+    </div>
+    <div id="servicelogo">
+        <div>
+            <img src="https://img.icons8.com/dotty/2x/warranty.png" alt="greabest">
+            <h4>High Quality Selection</h4>
+            <p>Total product quality control for peace of mind</p>
+        </div>
+        <div>
+            <img src="https://img.icons8.com/external-tanah-basah-glyph-tanah-basah/2x/external-like-user-interface-tanah-basah-glyph-tanah-basah.png" alt="greabest">
+            <h4>Affordable Prices</h4>
+            <p>Factory direct prices for maximum savings</p>
+        </div>
+        <div>
+            <img src="https://img.icons8.com/ios/344/free-shipping.png" alt="greabest">
+            <h4>Express Shipping</h4>
+            <p>Fast, reliable delivery from global warehouses</p>
+        </div>
+        <div>
+            <img src="https://img.icons8.com/glyph-neue/2x/star.png" alt="greabest">
+            <h4>Worry-free After-sales</h4>
+            <p>Instant access to professional support</p>
+        </div>
+    </div>   
+</div>  
+<div id="sosial-media-bar">
+        <div class="input-serch">
+            <label>Newsletter</label>
+            <input type="email" placeholder="enter email to get 50 Points">
+            <button>Subscribe</button>
+        </div>
+        <div class="footerSoical"> 
+            <a href="https://www.facebook.com/Gearbestshopping" class="footerSoical_item iconBg_icon-fb" rel="nofollow"> 
+                <img class="icon" src="https://img.icons8.com/ios-glyphs/344/instagram-new.png" alt="sosil">
+            </a> 
+            <a href="https://goo.gl/qXtLAh" class="footerSoical_item iconBg_icon-msg" rel="nofollow">
+                <img class="icon" src="https://img.icons8.com/ios-glyphs/344/facebook-new.png" alt="sosil">
+            </a>
+            <a href="https://www.youtube.com/user/TheGearBest" class="footerSoical_item iconBg_icon-youtube" rel="nofollow"> 
+                <img class="icon" src="https://img.icons8.com/ios-glyphs/344/youtube-play.png" alt="sosil">
+            </a> 
+            <a href="https://www.pinterest.com/gearbestlife/" class="footerSoical_item iconBg_icon-pinterest" rel="nofollow"> 
+                <img class="icon" src="https://img.icons8.com/ios-glyphs/344/twitter--v1.png" alt="sosil">
+            </a> 
+            <a href="https://vk.com/gearbest" class="footerSoical_item iconBg_icon-vk" rel="nofollow"> 
+                <img class="icon" src="https://img.icons8.com/ios-glyphs/344/tiktok.png" alt="sosil">
+            </a> 
+            <a href="https://www.instagram.com/gearbest/" class="footerSoical_item iconBg_icon-instagram" rel="nofollow"> 
+                <img class="icon" src="https://img.icons8.com/ios-glyphs/344/tumblr.png" alt="sosil">
+            </a> 
+            <a href="https://twitter.com/TheGearbest/" class="footerSoical_item iconBg_icon-twitter" rel="nofollow"> 
+                <img class="icon" src="https://img.icons8.com/ios-glyphs/344/wordpress--v1.png" alt="sosil">
+            </a> 
+            <a href="https://www.gearbest.com/blog/" class="footerSoical_item iconBg_icon-blog"> 
+                <img class="icon" src="https://img.icons8.com/material/344/linkedin--v1.png" alt="sosil">
+            </a> 
+            <a href="http://bit.ly/2LadoyE" class="footerSoical_item iconBg_icon-tumblr" rel="nofollow"> 
+                <img class="icon" src="https://img.icons8.com/ios-glyphs/344/weixing.png" alt="sosil">
+             </a> 
+        </div>
+</div> 
+<div id="information">
+    <div>
+        <h4>Company Information</h4>
+        <a class="information-anker-tag" href="about-us.html">About Us</a><br>
+        <a class="information-anker-tag" href="top-searches.html">Top Searches</a><br>
+        <a class="information-anker-tag" href="privacy-policy.html">Privacy Policy</a><br>
+        <a class="information-anker-tag" href="terms-and-conditions.html">Terms and Conditions</a><br>
+        <a class="information-anker-tag" href="Intellectual-Property-Policy.html">Intellectual Property Policy</a><br>
+        <a class="information-anker-tag" href="testimonials.html">Testimonoals</a><br>
+        <a class="information-anker-tag" href="contactus.html">Contact Us</a><br>
+        <a class="information-anker-tag" href="report-security-issue.html">Report Security Issue</a><br>
+        <a class="information-anker-tag" href="Sell-on-Gearbest.html">Sell on Gearbest</a><br>
+        <a class="information-anker-tag" href="cookie-policy.html">Cookies Policy</a><br>
+        <a class="information-anker-tag" href="top-brands.html">Top Brands</a><br>
+        <a class="information-anker-tag" href="Gearbest-Official-blog.html">Gearbest Official Blog</a><br>
+    </div>
+    <div>
+        <h4>Customer Service</h4>
+        <a class="information-anker-tag" href="Shipping-Information.html">Shipping Information</a><br>
+        <a class="information-anker-tag" href="My-Favorites">My Favorites</a><br>
+        <a class="information-anker-tag" href="FAQ-For-Newsletter-Subscription.html">FAQ For Newsletter Subscription</a><br>
+        <a class="information-anker-tag" href="My-Points.html">My Points</a><br>
+        <a class="information-anker-tag" href="warranty-and-Returs.html">warranty and Returs</a><br>
+        <a class="information-anker-tag" href="payment-Methods.html">payment Methods</a><br>
+        <a class="information-anker-tag" href="Deposit-Expansion.html">Deposit Expansion</a><br>
+        <a class="information-anker-tag" href="FAQ-&-support.html">FAQ & support</a><br>
+        <a class="information-anker-tag" href="Sitemap.html">Sitemap</a><br>
+        <a class="information-anker-tag" href="Gearbest-Wallet-Instruction.html">Gearbest Wallet Instruction</a><br>
+        <a class="information-anker-tag" href="FAQs-about-COVID-19.html">FAQs about COVID-19</a><br>
+    </div>
+    <div>
+        <h4>Other Business</h4>
+        <a class="information-anker-tag" href="Partnership-Programs.html">Partnership Programs</a><br>
+        <a class="information-anker-tag" href="Associate-Program.html">Associate Program</a><br>
+    </div>
+    <div>
+        <h4>Download App!</h4>
+        <p class="information-anker-tag">Save $3 with App & New User Only</p>
+        <div class="Download-App">
+        <div>
+            <img class="store-img-barcod" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVGnmufJH-y_Kzf-gJe2gKrdqLNIIWBzcwc-juHZtly0thyCiaB1Vw&usqp=CAE&s" alt=""/>
+        </div>
+        <div class="appDownload_area"> 
+            <a href="https://gearbest.app.link/pctopios" class="appDownload_appStore">
+                <img class="store-img" src="https://1000logos.net/wp-content/uploads/2020/08/apple-app-store-logo-500x173.jpg" alt=""/></a> 
+            <a href="https://gearbest.app.link/pctopandroid" class="appDownload_googlePlay">
+                <img class="store-img" src="https://lh3.googleusercontent.com/cjsqrWQKJQp9RFO7-hJ9AfpKzbUb_Y84vXfjlP0iRHBvladwAfXih984olktDhPnFqyZ0nu9A5jvFwOEQPXzv7hr3ce3QVsLN8kQ2Ao=s0" alt=""/></a> 
+        </div>
+        </div> 
+    </div>
+</div> 
+<div class="footWebauth-footerCenter"> 
+    <a href="https://www.gearbest.com/about/warranty-and-return.html" class="footWebauth_item" rel="nofollow"> 
+    <img class="js-lazyload-lazy-loaded-fist" src="https://uidesign.gbtcdn.com/GB/image/banner/20180407_2974/money.png" data-lazy="https://uidesign.gbtcdn.com/GB/image/banner/20180407_2974/money.png" data-was-processed="true"></a> 
+    <a href="https://www.mcafeesecure.com/verify?host=gearbest.com" class="footWebauth_item" rel="nofollow"> 
+    <img class="js-lazyload-lazy-loaded-fist" src="https://uidesign.gbtcdn.com/GB/image/banner/20180407_2974/m.png" data-lazy="https://uidesign.gbtcdn.com/GB/image/banner/20180407_2974/m.png" data-was-processed="true"></a> 
+    <a href="https://www.resellerratings.com/store/gearbest" class="footWebauth_item" rel="nofollow"> 
+    <img class="js-lazyload-lazy-loaded" src="https://uidesign.gbtcdn.com/GB/image/banner/20180407_2974/rese.png" data-lazy="https://uidesign.gbtcdn.com/GB/image/banner/20180407_2974/rese.png" data-was-processed="true"></a> 
+    <a class="footWebauth_item" rel="nofollow"> 
+    <img class="js-lazyload-lazy-loaded" src="https://uidesign.gbtcdn.com/GB/image/banner/20180407_2974/paypal.png" data-lazy="https://uidesign.gbtcdn.com/GB/image/banner/20180407_2974/paypal.png" data-was-processed="true"></a> 
+    <a class="footWebauth_item" rel="nofollow"> 
+    <img class="js-lazyload-lazy-loaded" src="https://uidesign.gbtcdn.com/GB/image/banner/20180407_2974/visa.png" data-lazy="https://uidesign.gbtcdn.com/GB/image/banner/20180407_2974/visa.png" data-was-processed="true"></a> 
+    <a class="footWebauth_item" rel="nofollow"> 
+    <img class="js-lazyload-lazy-loaded" src="https://uidesign.gbtcdn.com/GB/image/banner/20180407_2974/a.png" data-lazy="https://uidesign.gbtcdn.com/GB/image/banner/20180407_2974/a.png" data-was-processed="true"></a> 
+    <a class="footWebauth_item" rel="nofollow"> 
+    <img class="js-lazyload-lazy-loaded" src="https://uidesign.gbtcdn.com/GB/image/banner/20180407_2974/ww.png" data-lazy="https://uidesign.gbtcdn.com/GB/image/banner/20180407_2974/ww.png" data-was-processed="true"></a> 
+    <a class="footWebauth_item" rel="nofollow"> 
+    <img class="js-lazyload-lazy-loaded" src="https://uidesign.gbtcdn.com/GB/image/banner/20180407_2974/jcb.png" data-lazy="https://uidesign.gbtcdn.com/GB/image/banner/20180407_2974/jcb.png" data-was-processed="true"></a> 
+    <a class="footWebauth_item" rel="nofollow"> 
+    <img class="js-lazyload-lazy-loaded" src="https://uidesign.gbtcdn.com/GB/image/banner/20180407_2974/dic.png" data-lazy="https://uidesign.gbtcdn.com/GB/image/banner/20180407_2974/dic.png" data-was-processed="true"></a> 
+    <a class="footWebauth_item" rel="nofollow"> 
+    <img class="js-lazyload-lazy-loaded" src="https://uidesign.gbtcdn.com/GB/image/banner/20180407_2974/ya.png" data-lazy="https://uidesign.gbtcdn.com/GB/image/banner/20180407_2974/ya.png" data-was-processed="true"></a> 
+    <a class="footWebauth_item" rel="nofollow"> 
+    <img class="js-lazyload-lazy-loaded" src="https://uidesign.gbtcdn.com/GB/image/banner/20180407_2974/d.png" data-lazy="https://uidesign.gbtcdn.com/GB/image/banner/20180407_2974/d.png" data-was-processed="true"></a> 
+    <a class="footWebauth_item" rel="nofollow"> 
+    <img class="js-lazyload-lazy-loaded" src="https://uidesign.gbtcdn.com/GB/image/banner/20180407_2974/qiwi.png" data-lazy="https://uidesign.gbtcdn.com/GB/image/banner/20180407_2974/qiwi.png" data-was-processed="true"></a> 
+    <a class="footWebauth_item" rel="nofollow"> 
+    <img class="js-lazyload-lazy-loaded" src="https://uidesign.gbtcdn.com/GB/image/banner/20180407_2974/oxxo.png" data-lazy="https://uidesign.gbtcdn.com/GB/image/banner/20180407_2974/oxxo.png" data-was-processed="true"></a> 
+    <a class="footWebauth_item" rel="nofollow"> 
+    <img class="js-lazyload-lazy-loaded" src="https://uidesign.gbtcdn.com/GB/image/banner/20180407_2974/webmoney.png" data-lazy="https://uidesign.gbtcdn.com/GB/image/banner/20180407_2974/webmoney.png" data-was-processed="true"></a> 
+    <a class="footWebauth_item" rel="nofollow"> 
+    <img class="js-lazyload-lazy-loaded" src="https://uidesign.gbtcdn.com/GB/image/banner/20180407_2974/bo.png" data-lazy="https://uidesign.gbtcdn.com/GB/image/banner/20180407_2974/bo.png" data-was-processed="true"></a> 
+    <a class="footWebauth_item" rel="nofollow"> 
+    <img class="js-lazyload-lazy-loaded" src="https://uidesign.gbtcdn.com/GB/image/banner/20180407_2974/postepay.png" data-lazy="https://uidesign.gbtcdn.com/GB/image/banner/20180407_2974/postepay.png" data-was-processed="true"></a> 
+    <a class="footWebauth_item" rel="nofollow"> 
+    <img class="js-lazyload-lazy-loaded" src="https://uidesign.gbtcdn.com/GB/image/banner/20180407_2974/giropay.png" data-lazy="https://uidesign.gbtcdn.com/GB/image/banner/20180407_2974/giropay.png" data-was-processed="true"></a> 
+    <a class="footWebauth_item" rel="nofollow"> 
+    <img class="js-lazyload-lazy-loaded" src="https://uidesign.gbtcdn.com/GB/image/banner/20180407_2974/sofort.png" data-lazy="https://uidesign.gbtcdn.com/GB/image/banner/20180407_2974/sofort.png" data-was-processed="true"> </a> 
+    <a class="footWebauth_item" rel="nofollow"> 
+    <img class="js-lazyload-lazy-loaded" src="https://uidesign.gbtcdn.com/GB/image/banner/20180407_2974/eps.png" data-lazy="https://uidesign.gbtcdn.com/GB/image/banner/20180407_2974/eps.png" data-was-processed="true"></a> 
+    <a class="footWebauth_item" rel="nofollow"> 
+    <img class="js-lazyload-lazy-loaded" src="https://uidesign.gbtcdn.com/GB/image/banner/20180407_2974/p.png" data-lazy="https://uidesign.gbtcdn.com/GB/image/banner/20180407_2974/p.png" data-was-processed="true"></a>
+    <a class="footWebauth_item" rel="nofollow"> 
+    <img class="js-lazyload-lazy-loaded" src="https://uidesign.gbtcdn.com/GB/image/banner/20180407_2974/pago.png" data-lazy="https://uidesign.gbtcdn.com/GB/image/banner/20180407_2974/pago.png" data-was-processed="true"></a> 
+    <a class="footWebauth_item" rel="nofollow"> 
+    <img class="js-lazyload-lazy-loaded" src="https://uidesign.gbtcdn.com/GB/image/others/20190222_7819/Visa-Logo.png" data-lazy="https://uidesign.gbtcdn.com/GB/image/others/20190222_7819/Visa-Logo.png" data-was-processed="true"></a> 
+    <a class="footWebauth_item" rel="nofollow"> 
+    <img class="js-lazyload-lazy-loaded" src="https://uidesign.gbtcdn.com/GB/image/others/20190222_7819/m-Logo.png" data-lazy="https://uidesign.gbtcdn.com/GB/image/others/20190222_7819/m-Logo.png" data-was-processed="true"></a> 
+</div>
+<div id="bottomNav">
+    <h5>Copyright © 2014-2021 Gearbest.com. All Rights Reserved.</h5>
+</div>
+
+ 
+   
 </body>
 
 <script src="/gearbest/scriptPage/coupon.js"></script>
-<script type="text/javascript" >
 
-// let check = CouponData[0];
-
-// console.log(check)
-</script>
 </html>
