@@ -761,8 +761,9 @@ function rmodal5Fun()
 }
 
 // ///////////////////////////////////////////////    show email id      ///////////////////////////////
-// localStorage.setItem("signin","jaikrr10@gmail.com");
-// var user=localStorage.getItem("signin");
-// document.querySelector(".back").innerText=user;
-// document.querySelector(".back").style.marginLeft="10px";
-// document.querySelector(".backbox").style.width="200px";
+
+var user=localStorage.getItem("show_email") || "Sign In";
+document.querySelector(".back").innerText=user;
+// document.querySelector(".back").style.marginLeft="";
+document.querySelector(".backbox").style.width="120px";
+// document.querySelector(".backbox").style.overflow="hidden";

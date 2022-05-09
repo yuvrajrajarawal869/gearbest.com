@@ -256,9 +256,11 @@
         mobile_Nombur: document.querySelector(".phone").value,
         Email: document.querySelector(".email").value,
         address: document.querySelector(".address1").value + document.querySelector(".address2").value + document.querySelector(".city").value + document.querySelector(".postal").value + document.querySelector("#state").value +document.querySelector("#country").value ,
+
     };
       addressArr.push(addressObj);
       localStorage.setItem("addressStore",(JSON.stringify(addressArr)));
+      window.location.href="/payment1.html"
   }
   
 

@@ -84,6 +84,9 @@ function showByNavFilter(el) {
   console.log(el.innerText);
 }
 
+
+disPlayProduct(productData);
+
 function disPlayProduct(productData) {
 
   productData.forEach(function (el) {
@@ -128,8 +131,8 @@ function disPlayProduct(productData) {
    
 
    
-    let a =  document.createElement("button");
-    // a.setAttribute("href", "cartpage.html");
+    let a =  document.createElement("a");
+        // a.setAttribute("href","/cartpage.html")
 
       a.innerText="add cart"; 
 
@@ -156,29 +159,35 @@ function disPlayProduct(productData) {
   });
 }
 
-disPlayProduct(productData);
 
 
-let email = localStorage.getItem("email_show")
+
+let email = localStorage.getItem("show_email")
 
 
-let bakendData= [];
+let bakendData= JSON.parse(localStorage.getItem("bakendData")) || [] ;
 
 
 
 function addToCart(obj){
 
+  event.preventDefault();
   // console.log(obj);
 
   bakendData.push(obj);
 
-  localStorage.setItem("bakendData",JSON.stringify(bakendData))
+  localStorage.setItem("bakendData",JSON.stringify(bakendData)) ;
 
-  window.localStorage.href="cartpage.html"
+ 
+  window.location.href="/cartpage.html"
 
   // console.log("hi")
 
 }
-
+var user=localStorage.getItem("show_email");
+document.querySelector(".back").innerText=user;
+// document.querySelector(".back").style.marginLeft="";
+document.querySelector(".backbox").style.width="120px";
+// document.querySelector(".backbox").style.overflow="hidden";
 
 // let email = null;

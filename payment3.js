@@ -1,21 +1,20 @@
 
 
 
- var mach = JSON.parse(localStorage.getItem("OTP"));
+ var mach = localStorage.getItem("OTP");
  var otp = document.querySelector(".otp");
-
  var fff = document.querySelector(".form_mach");
 
 
  
- var billing_detai = JSON.parse(localStorage.getItem("amout_datail"));
+var billing_detai = JSON.parse(localStorage.getItem("amout_datail"));
 var orderConform = localStorage.getItem("orderConform");
-var billing_address=JSON.parse(localStorage.getItem("billing_address"));
+var billing_address=JSON.parse(localStorage.getItem("addressStore"));
 var bakendData = JSON.parse(localStorage.getItem("bakendData"));
+var payAmunt = localStorage.getItem("payAmunt");
 
 
-
-document.querySelector(".form_mach")
+// document.querySelector(".form_mach")
 
 document.querySelector("form").addEventListener("submit",OTPcheaking)
 
@@ -42,9 +41,9 @@ document.querySelector("form").addEventListener("submit",OTPcheaking)
 
         if(otp.value==mach)
         {   
-    
+            
+            alert("payment successful of"  + "  "+ payAmunt)
             model.style.display ="block";   
-      
             var Succ = document.createElement("h3");
             Succ.setAttribute("class","remark")
             Succ.innerText="Ordered Successfully";
@@ -64,7 +63,7 @@ document.querySelector("form").addEventListener("submit",OTPcheaking)
             Saving.innerText = "Saving" +":-"+elm.Saving;
             dilivery_charge.innerText="dilivery charge"+ ":-" +elm.dilivery_charge;
             total_bill.innerText="total_bill"+":-"+elm.total_bill;
-            Atom_qty.innerText="Atom_qty"+":-"+elm.Atom_qty;
+            Atom_qty.innerText="Atom qty"+":-"+elm.Atom_qty;
         });
 
         billing_address.forEach(function (elm){
@@ -76,21 +75,18 @@ document.querySelector("form").addEventListener("submit",OTPcheaking)
 
         bakendData.forEach(function (elm){
            
-            Atom_discription.innerText="Atom_discription";
-            Atom_name.innerText="Atom_name"+":-"+elm.itom_detail;
+            Atom_discription.innerText="Atom discription";
+            Atom_name.innerText="Atom name"+":-"+elm.itom_detail;
 
         });
-
+        
         }
-
 
         else{
             alert("wrong OTP");
         }
   };
-         
  
-
 
 
 

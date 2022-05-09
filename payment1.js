@@ -1,34 +1,33 @@
 
-// // var costomoredata=[
-// //     {
-// //         name : "yuvraj rajarawal",
-// //         mobile_Nombur: "8698698804",
-// //         Email : "yuvraj@gmail.com",
-// //         address : "at wadi khu,bhokardan,jalna,maharastra,431114",
-// //     },
-
+// var costomoredata=[
+//     {
+//         name : "yuvraj rajarawal",
+//         mobile_Nombur: "8698698804",
+//         Email : "yuvraj@gmail.com",
+//         address : "at wadi khu,bhokardan,jalna,maharastra,431114",
+//     },
 
 // ];
 
-let costomoredata = JSON.parse(localStorage.getItem("billing_address"));
+// // let costomoredata = JSON.parse(localStorage.getItem("billing_address"));
 
-document.querySelector(".ankertagOfBtn").addEventListener("click",billing_address);
-function  billing_address(){
+// document.querySelector(".ankertagOfBtn").addEventListener("click",billing_address);
+// function  billing_address(){
     
-        localStorage.setItem("billing_address",JSON.stringify(costomoredata))
+//         localStorage.setItem("billing_address",JSON.stringify(costomoredata))
 
-       }   
+//        }   
 
  
-// var arrOfCupen = 
-//      {
-//         xtty : 200,
-//         sytj : 100,
-//         frt  : 50,
-//         fdgdg: 10,
-//         fhgdhfg :40,
-//         gfhd: 100,
-//     };
+var arrOfCupen = 
+     {
+      Y81A5C7592512001 : 200,
+      E81B94F8BB112000 : 100,
+      X812A2AE22153000  : 50,
+      N81A4BF2ABD53000 : 10,
+      M7A537098E553000 :40,
+      E81A546E4DD12001: 100,
+    };
 
 
       
@@ -45,7 +44,7 @@ for(var i=3; i<y.length; i++)
 }
 localStorage.setItem("OrderNumber",bag);
 
-
+  var costomoredata = JSON.parse(localStorage.getItem("addressStore"))
 
     var atom_select = document.querySelector(".change_itom").addEventListener("click",massage)
      var cupenprice = localStorage.getItem("cupenValue");
@@ -186,10 +185,10 @@ mapData(bakendData);
 
 
       var sub_total = document.querySelector("#grand-total .price p+p").innerText=Number(sum1)
-      var total = document.querySelector(".shipping-charge p+p").innerText=sum2*40;
-      var payAmunt = document.querySelector(".Earn_point h4").innerText= Number(sub_total)+Number(total)-Number(cupenprice);
+      var total = document.querySelector(".shipping-charge p+p").innerText=40;
+      var payAmunt = document.querySelector(".Earn_point h4").innerText= Math.floor(Number(sub_total)+Number(total)-Number(cupenprice));
       var dDiscount =Number(sum3)-Number(sum1);
-      
+      localStorage.setItem("payAmunt",payAmunt);
         
       var amout_datail =[];
 

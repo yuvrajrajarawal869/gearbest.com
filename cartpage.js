@@ -50,7 +50,7 @@
 // function addtobackend(){
 //     if(email != "Sign Up")
 //     {
-//         localStorage.setItem("bakendData",JSON.stringify(bakendData1));
+        //  localStorage.setItem("bakendData",JSON.stringify(bakendData1));
 //         window.location.reload();
 //     }
 //     else{
@@ -169,11 +169,16 @@ var  bakendData_of_card = JSON.parse(localStorage.getItem("bakendData"));
     document.querySelector(".totalPrice").innerText=sum3;
     document.querySelector(".offer").innerText=Number(sum3)-Number(sum1);
 
-    document.querySelector(".paytotal").innerText=Number(sum3)-(Number(sum3)-Number(sum1));
+    document.querySelector(".paytotal").innerText=Math.floor(Number(sum3)-(Number(sum3)-Number(sum1)));
 
-     
+     document.querySelector(".btn-place-order").addEventListener("click",gotoplaceorder)
     
-    
+    function gotoplaceorder(){
+      if(bakendData_of_card.length>0)
+      {
+        window.location.href="payment1.html"
+      }
+    }
 
 
 

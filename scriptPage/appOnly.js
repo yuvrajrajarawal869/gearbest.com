@@ -1,4 +1,4 @@
-console.log("hello appOnly");
+
 
 function tiltePage() {
   let pageTitle = "App Exclusive Deals & Discounts Sale Online | Gearbest";
@@ -34,9 +34,10 @@ view();
 
 
   let product= ProductData
-
+  disPlayProduct(product);
 
   function disPlayProduct(productData) {
+
 
     productData.forEach(function (el,ind) {
       // let a =  document.createElement("a");
@@ -82,9 +83,6 @@ view();
       sp2.addEventListener("click", function(){
 
         qrDisplay(el,ind)
-
-
-
       });
 
       couponBox.append(sp1,sp2);
@@ -102,9 +100,10 @@ view();
       qrpara.innerText=`Gearbest App QR`;
 
       qrdiv.append(qrimg,qrpara);
-
-     
-      let a =  document.createElement("a");
+    
+   
+      
+      let a =  document.createElement("button");
       // a.setAttribute("href", "cartpage.html");
 
         a.addEventListener("click", function (){
@@ -130,28 +129,28 @@ view();
     });
   }
   
-  disPlayProduct(product);
+  
   
 
 
-  let email = localStorage.getItem("email_show")
+  let email = localStorage.getItem("show_email")
 
 
-let bakendData= [];
 
 
+  let bakendData=  JSON.parse(localStorage.getItem("bakendData")) || [];  
 
 function addToCart(obj){
 
   // console.log(obj);
-
+// event.preventDefault();
   bakendData.push(obj);
 
   localStorage.setItem("bakendData",JSON.stringify(bakendData))
-
-  window.localStorage.href="cartpage.html"
-
+  
   // console.log("hi")
+  window.location.href="/cartpage.html"
+
 
 }
 
@@ -186,3 +185,9 @@ function qrDisplay(el,ind){
 
 
 }
+
+var user=localStorage.getItem("show_email");
+document.querySelector(".back").innerText=user;
+// document.querySelector(".back").style.marginLeft="";
+document.querySelector(".backbox").style.width="120px";
+// document.querySelector(".backbox").style.overflow="hidden";

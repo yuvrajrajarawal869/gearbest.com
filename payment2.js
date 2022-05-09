@@ -18,7 +18,7 @@ for(var i=0; i<4; i++)
 {
   OTP=OTP+bag[i];
 }
-console.log(OTP);
+
 
 
 
@@ -30,10 +30,10 @@ console.log(OTP);
 //    address : "at wadi khu tail bhokardan diat jalna 431114",
 // },];
 
-localStorage.setItem("billing_address",JSON.stringify(billing_Add))
+// localStorage.setItem("billing_address",JSON.stringify(billing_Add))
 
 
-var billing_data = JSON.parse(localStorage.getItem("billing_address"));
+var billing_data = JSON.parse(localStorage.getItem("addressStore"));
 
 billing_data.forEach( function(elm){
 
@@ -112,16 +112,16 @@ var creditCardDetailes = [
     card_Number : 455683992232,
     month_of_exp : 7,
     year_Of_expiry : 2034,
-    cvv : 110,
-    Card_holder_Name : "yuvraj",
+    cvv : 515,
+    Card_holder_Name : "prabhat",
   },
 
   {
     card_Number : 455683995466,
     month_of_exp : 6,    
     year_Of_expiry : 2037,   
-    cvv : 110,
-    Card_holder_Name : "yuvraj",
+    cvv : 340,
+    Card_holder_Name : "yogesh",
   },
   {
     card_Number : 455683990088,

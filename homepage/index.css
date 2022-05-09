@@ -615,6 +615,12 @@ h1>a{
     background-color: rgb(255, 208, 0);
     border:none;
     font-weight: bolder;
+    text-align: center;
+    padding-top: 8px;
+}
+.signbutmodal>a{
+    color: black;
+   
 }
 .google{
     width:40px;
@@ -637,10 +643,17 @@ h1>a{
     color:white;
     font-weight: bold;
     border:none;
+    text-align: center;
+    padding-top: 5px;
+    color: black;
+}
+.registermodal>a{
+    color: white;
 }
 .signinmodal>p{
     margin-top: -5px;
 }
+
 .languagemodal{
     position: absolute;
     background-color: white;
