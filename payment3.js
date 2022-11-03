@@ -46,7 +46,7 @@ document.querySelector("form").addEventListener("submit",OTPcheaking)
             model.style.display ="block";   
             var Succ = document.createElement("h3");
             Succ.setAttribute("class","remark")
-            Succ.innerText="Ordered Successfully";
+            Succ.innerText="Payment Successfully";
             document.querySelector(".form_mach").innerHTML="";
             fff.append(Succ);
 
@@ -63,7 +63,7 @@ document.querySelector("form").addEventListener("submit",OTPcheaking)
             Saving.innerText = "Saving" +":-"+elm.Saving;
             dilivery_charge.innerText="dilivery charge"+ ":-" +elm.dilivery_charge;
             total_bill.innerText="total_bill"+":-"+elm.total_bill;
-            Atom_qty.innerText="Atom qty"+":-"+elm.Atom_qty;
+            Atom_qty.innerText="Item qty"+":-"+elm.Atom_qty;
         });
 
         billing_address.forEach(function (elm){
@@ -75,8 +75,8 @@ document.querySelector("form").addEventListener("submit",OTPcheaking)
 
         bakendData.forEach(function (elm){
            
-            Atom_discription.innerText="Atom discription";
-            Atom_name.innerText="Atom name"+":-"+elm.itom_detail;
+            Atom_discription.innerText="Item discription";
+            Atom_name.innerText="Item name"+":-"+elm.itom_detail;
 
         });
         
